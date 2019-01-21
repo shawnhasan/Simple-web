@@ -1,0 +1,299 @@
+body{
+	padding:0px;
+}
+a {
+	padding:0px;
+}
+/*Navbar start*/
+.top-nav{
+	position:absolute;
+	width: 100%;
+	z-index: 9;
+	margin-top:15px;
+}
+.navbar-brand{
+	background-color:red;
+	font-size:25px;
+	padding:0px 7px 4px 7px; 
+}
+
+.navbar-nav {
+	font-size:20px;
+}
+
+.nav-link{
+	display:block;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:#FFFFFF;
+}
+
+@media(max-width:764px){
+	ul.navbar-nav {
+		background-color:#00000078;
+		margin-top:5px;
+		padding:5px 0px 5px 15px;
+	}
+}
+/*Navbar End*/
+
+/*slider start*/
+.callbacks_container{
+	position: relative;
+	width: 100%;
+}
+@media(max-width:764px)  {
+	.w-100 {
+		width:100%;
+		height:400px;
+	}	
+}
+.carousel-caption{
+	top:35%;
+	text-align:left;
+}
+
+#welcome{
+	padding:30px 30px 40px 20px;
+}
+.wel_content{
+	padding:60px 5px 10px 40px;
+}
+.wel_h4{
+	border-left:2px solid red;
+	padding-left:15px;
+	letter-spacing:1px;
+	margin-top:20px;
+}
+
+.wel_p {
+    font-size: 15px;
+    color: #666;
+    line-height: 2em;
+    letter-spacing: 1px;
+}
+/*slider end*/
+
+
+/*service start*/
+#services{
+    background: url(../images/ser5.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+.service_h3{ 
+	color:white;
+	text-transform: uppercase;
+	text-align:center;
+	padding:40px 0px 20px 0px;
+	}
+.service_container{
+	padding:10px 25px 30px 50px;
+}
+.service_icon{
+	color:white;
+	font-size:30px;
+}
+.service_h4{
+	color:red;
+}	
+.service_p{
+	color:white;
+}
+	/*team*/
+#team{
+	padding-top:60px;
+
+}
+.team_container{
+	padding:5px 50px 10px 50px;
+}
+.team_h3{
+		text-align:center;
+	text-transform:uppercase;
+	font-size:30px;
+	padding-bottom:20px;
+}
+
+.profile .img-box{
+	opacity: 1;
+	display: block;
+	position: relative;
+}
+.img-box ul{
+	position: absolute;
+	z-index: 2;
+	bottom: 50px;
+	text-align: center;
+	width: 100%;
+	padding-left: 0px;
+	height: 0px;
+	margin:0px;
+}
+
+.img-box ul li {
+    display: inline-block;
+}
+.img-box ul li a{
+    width: 35px;
+    height: 35px;
+    font-size: 12px;
+    display: block;
+    margin: 0 3px;
+    line-height: 35px;
+    border: 1px solid #fff;
+}
+
+.profile .img-box:after{
+	content:"";
+	opacity:0;
+	background-color:rgba(0, 0, 0, 0.75);
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+.img-box:hover:after{
+	opacity: 1;
+}
+.profile h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #222;
+	text-align:center;
+    letter-spacing: 1px;
+}
+.profile p{
+	text-align:center;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #343434;
+    text-transform: capitalize;
+}
+
+#contact{
+	background-color:black;
+	padding:50px 100px 50px 100px;
+	color:white;
+	text-align:center;
+}
+.jumbotron {
+background-color:#C0C0C0;
+color: #FFF;
+border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 24px;
+padding-bottom: 24px; }
+.jumbotron small {
+color: #FFF;
+}
+.h1 small {
+font-size: 24px;
+}
+
+/*-- footer --*/
+.newsletter {
+    background: #111;
+}
+.newsletter form {
+    width: 100%;
+    position: relative;
+}
+.newsletter input[type="email"] {
+    width: 100%;
+    padding: 1em 1.2em;
+    width: 100%;
+    font-size: 15px;
+    color: #666;
+    outline: none;
+    background: rgba(241, 245, 249, 0.08);
+    -webkit-appearance: none;
+    border: none;
+    -webkit-appearance: none;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.newsletter input[type="email"]:focus {
+    background: #fff;
+}
+.form-control:focus {
+    box-shadow: 0 0 0 0.025rem rgba(255, 255, 255, 0.25);
+}
+.newsletter button.btn1 {
+    color: #666;
+    border: none;
+    padding: 10px 0;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    background: none;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+    position: absolute;
+     right: 4%;
+    bottom: 7%;
+}
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: none;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+}
+.newsletter form {
+    width: 40%;
+    margin: 0 auto;
+}
+.subscribe_inner p{
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #aaa;
+    font-weight: 300;
+}
+
+.newsletter ul li a {
+    font-size: 13px;
+    display: block;
+  color: #fff;
+    background: #e7272d;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.newsletter ul li a:hover {
+    background: #333;
+}
+.social  ul {
+    list-style-type: none;
+}
+.subscribe_inner h4 {
+    color: #e7272d;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.subscribe_inner i {
+    color: #666;
+}
+.copyright p {
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #aaa;
+    font-weight: 300;
+     line-height: 28px;
+}
+.copyright a {
+    color: #eee;
+}
+.copyright a:hover {
+    color: #e7272d;
+}
+/*-- //footer --*/
